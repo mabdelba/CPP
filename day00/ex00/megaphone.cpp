@@ -6,7 +6,7 @@
 /*   By: mabdelba <mabdelba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/17 14:23:14 by mabdelba          #+#    #+#             */
-/*   Updated: 2022/11/01 16:04:39 by mabdelba         ###   ########.fr       */
+/*   Updated: 2022/12/12 16:02:17 by mabdelba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,6 @@ int main(int ac, char **av)
 			std::cout << av[i][j];
 		}
 	}
-	std::cout << std::endl << std::endl;
+	std::cout << std::endl;
 	return 0;
 }

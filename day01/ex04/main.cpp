@@ -6,12 +6,14 @@
 /*   By: mabdelba <mabdelba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/11 21:12:25 by mabdelba          #+#    #+#             */
-/*   Updated: 2022/11/14 16:09:50 by mabdelba         ###   ########.fr       */
+/*   Updated: 2022/12/12 23:21:30 by mabdelba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include <fstream>
+
+//substr
 
 int main(int ac, char **av)
 {
@@ -44,7 +46,7 @@ int main(int ac, char **av)
 				ofs << std::endl;
 		}
 		ifs.close();
-		ifs.close();
+		ofs.close();
 	}
 	else
 	{

@@ -6,7 +6,7 @@
 /*   By: mabdelba <mabdelba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 19:40:34 by mabdelba          #+#    #+#             */
-/*   Updated: 2022/11/12 13:53:38 by mabdelba         ###   ########.fr       */
+/*   Updated: 2022/12/12 23:26:56 by mabdelba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,5 +31,6 @@ int main()
 		club.setType("some other type of club");
 		jim.attack();
 	}
+	//system("leaks ViolenceInutile");
 	return 0;
 }

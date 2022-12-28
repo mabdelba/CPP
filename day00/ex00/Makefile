@@ -6,7 +6,7 @@
 #    By: mabdelba <mabdelba@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/17 14:34:49 by mabdelba          #+#    #+#              #
-#    Updated: 2022/10/24 19:03:38 by mabdelba         ###   ########.fr        #
+#    Updated: 2022/12/12 15:58:43 by mabdelba         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,13 +20,16 @@ FLAGS = -Wall -Wextra -Werror -std=c++98
 
 NAME = megaphone
 
+%.o : %.cpp
+		$(CC) $(FLAGS) -c $<
+
 $(NAME) : $(OBJ)
-		$(CC) $(FLAGS) $(SRC) -o $(NAME)
+		$(CC) $(FLAGS) $(OBJ) -o $(NAME)
 
 all : $(NAME)
 
 clean : 
-	rm -rf $(OBJ)
+		rm -rf $(OBJ)
 
 fclean : clean
 		rm -rf $(NAME)
